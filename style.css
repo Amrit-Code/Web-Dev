@@ -1,0 +1,184 @@
+/* Top Nav CSS */
+#Top-Nav{
+    background-color: #e3f2fd;
+}
+.hidden{
+    visibility: hidden;
+}
+/* Flex Box CSS */
+.flex-container{
+    display: flex;
+    align-items: stretch;
+    margin: 0.5%;
+    padding: 1%;
+}
+.left-coloum{
+    flex-grow: 1;
+    flex-basis: 15%;
+    position: relative;
+}
+.middle-coloum{
+    flex-grow: 10;
+    flex-basis: 60%;
+    position: relative;
+}
+.right-coloum{
+    flex-grow: 3;
+    position: relative;
+}
+.left-coloum, .middle-coloum, .right-coloum{
+    margin: 0.5%;
+}
+#Phone{
+    display: none;
+}
+/* Other Layout CSS*/
+#About-Me-Tab, #About-Me-Side, #Skill-Achivements-Tab, #Skill-Achive-Side,
+#Education-Qualifications-Tab, #Education-Qualifications-Side,
+#Experience-Tab, #Experience-Side, #Portfolio, #Portfolio-Side{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+/* Div CSS */
+.Body-Div{
+    border: 1px solid black;
+    padding: 3%;
+    background-color: #f1f1f1;
+    margin-bottom: 2%;
+    z-index: -2;
+}
+.Block-Header{
+    background-color: #e3f2fd;
+    font-size: 50%;
+    padding: 2%;
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: center;
+}
+.Special-Block-Header{
+    background-color: #e5fde3;
+    font-size: 50%;
+    padding: 2%;
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: center;
+}
+/* Special Div CSS */
+#Why-Abroad{
+    position: relative;
+}
+/* Side Div CSS */
+.right-coloum .Body-Div{
+    margin-bottom: 5%;
+}
+#Languages-Spoken, .Text-Centre{
+    text-align: center;
+}
+#About-Me-Sdie-Info{
+    text-align: center;
+}
+/* Table CSS */
+.Side-Table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0.5%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+th{
+    background-color: #e3f2fd;
+    padding: 0.5em;
+}
+td{
+    border: solid 1px black;
+    align-items: center;
+    padding: 2%;
+    font-size: 0.8em;
+    background-color: white;
+}
+/* Other CSS */
+.Main-Text{
+    margin: 1%;
+}
+.Centre-Text{
+    text-align: center;
+}
+.Smaller-Text{
+    font-size: 90%;
+}
+#Icon{
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 1%;
+    float: right;
+}
+#Icon-Side{
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 1%;
+    width: 50%;
+    height: 50%;
+}
+.Background-Img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    opacity: 0.2;
+}
+.Side-Image{
+    float: left;
+    width: 10%;
+    margin-right: 1%;
+}
+.Special-Side-Image{
+    float: right;
+    bottom: 2%;
+    width: 10%;
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+#collapseOne, #collapseTwo{
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+#Show-List{
+    list-style: circle;
+    margin-left: 2%;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.25rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+
+/* Blog Styling */
+
+.Time-Stamp{
+    float: right;
+}
+.Blog-Body{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+#Submit-Blog{
+    width: 100%;
+    background-color: #e3f2fd;
+    color: black;
+}
+.Text-Centre{
+    border: none;
+}
+/*#*/
+/*  */
